@@ -16,7 +16,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'srvconn-azsandbox-arm-rsg'
+    azureResourceManagerConnection: 'srvconn-pygatulsandbox-sbcrpsn'
     subscriptionId: '22caa23e-b860-4718-a96b-23dab131c1da'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'AzureRmPipeline-rg'
