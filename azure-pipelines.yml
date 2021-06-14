@@ -23,7 +23,7 @@ steps:
     location: 'Central US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/atulpatel/AZArmTemplates/master/azuredeploy.json'
-    overrideParameters: '-projectName azuresandbox'
+    overrideParameters: '-projectName azsandbox'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployARMTemplatePipeline'
     
